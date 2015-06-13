@@ -1,0 +1,254 @@
+
+html, body {
+    height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* BODY */
+::selection {
+    background: #E2C671;
+}
+
+body {
+	width: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	background-color: #102E42;
+}
+
+.title {
+	font-family: 'Abril Fatface', serif;
+	font-weight: 400;
+}
+
+
+
+/* SECTION HERO */
+#section3 {
+	width: 100%;
+	height:90%;
+	background-color: #102E42;
+	background-image: url('hero.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom; 
+
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+}
+
+#hero-text {
+	/* CENTER DA FKIN THING */
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	/* CENTER DA FKIN THING ends */
+	color: #DBB84D;
+	text-shadow: 2px 2px 10px #000;
+}
+
+#hero-text h1 {
+	font-size: 500%;
+	padding-bottom: 0;
+}
+
+#hero-text p {
+	font-size: 200%;
+}
+
+/* MENU*/
+#menu .fa {
+	margin-right: 0.25em;
+}
+
+#menu {
+	width: 100%;
+	height: 10%;
+	background-color: #E2C671;
+}
+
+#menu ul {
+	text-align: center;
+	list-style-type: none;
+	padding: 20px;
+
+}
+
+#menu li {
+	padding: 0 30px;
+	display: inline;
+}
+
+a{
+	text-decoration: none;
+	-webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    transition: color 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+#menu a:link {
+	color: #1f597f;
+}
+
+#menu a:visited {
+	color: inherit;
+}
+
+#menu a:hover {
+	color: #102428;
+}
+
+
+
+/* SECTION SUB-IMAGE */
+#section1 {
+	width: 100%;
+	height: 50%;
+	background-image: url('sub-image.jpg') ;
+	background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+/* SECTION MAIN TEXTS */
+
+#section2 .fa {
+	margin-left: 0.25em;
+	font-size: 0.75em;
+	line-height: 1px;
+}
+
+#section2 .fa-flash {
+	margin-left: 0.35em;
+}
+
+#section2 {
+	width: 100%;
+	height: 60%;
+	background-color: #E2C671;
+}
+
+
+.content h2 {
+	font-size: 3em;
+	padding-bottom: 10px;
+}
+
+.content {
+	font-size: 18px;
+	display: inline-block;
+	margin-left: 30px;
+	padding-top: 30px;
+	width: 25%;
+	float: left;
+	color: #102E42;
+
+}
+
+/* SECTION GET IN TOUCH */
+
+#section4 {
+	width: 100%;
+	height:100%;
+	background-color: #E2C671;
+	font-size: 18px;
+}
+
+#section4 h2 {
+	font-size: 3em;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.bottomcontent {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+
+
+
+/* SOCIALE */
+#section4a {
+	width: 50%;
+	height: 100%;
+	background-color: #DBB84D;
+	color: #102E42;
+	float:left;
+	
+}
+
+.iconz {
+	width: 50%;
+	margin: 15% auto;
+	text-align: center;
+}
+
+.icons {
+	font-size : 10em;
+	text-align: center;
+	margin: 0 12.5% 12.5% 10%;
+
+}
+
+.iconz a:link {
+	color: #102E42;
+}
+
+
+.iconz a:visited {
+	color: inherit;
+}
+
+.iconz a:hover {
+	color: #1f597f ;
+}
+
+
+/* MAIL ME */
+#section4b {
+	width: 50%;
+	height: 100%;
+	background-color: #102E42;
+	color: #DBB84D;
+	float:left;
+}
+
+#contactz {
+	font-size: 15em;
+
+}
+
+#section4b a:link {
+	color:#DBB84D;
+	text-decoration: none;
+}
+
+#section4b a:visited {
+	color:inherit;
+}
+
+#section4b a:hover {
+	color: #e8d391;
+}
