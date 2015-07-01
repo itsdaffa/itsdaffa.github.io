@@ -15,13 +15,13 @@ html, body {
 
 body {
 	width: 100%;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Josefin Sans', 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	font-weight: 400;
 	background-color: #102E42;
 }
 
 .title {
-	font-family: 'Abril Fatface', serif;
+	font-family: 'Abril Fatface', Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
 	font-weight: 400;
 }
 
