@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*------*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+#main {
+  margin: 10px auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.eng {
+  font-weight: 600;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.ind {
+  margin-top: 5px;
+}
+
+#maintext {
+  margin-bottom: 20px;
+}
+
+#bottomtext {
+  margin-top: 20px;
+}
+
+img#snapcode {
+  width: 500px;
+  height: 500px;
+}
+
+em {
+  color: #FFFD33;
+  text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+}
